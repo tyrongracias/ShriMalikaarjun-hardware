@@ -16,7 +16,6 @@ export function Header() {
         <nav className="main-nav" aria-label="Main navigation">
           <Link href="/products">Products</Link>
           <Link href="/categories">Categories</Link>
-          <Link href="/brands/opus">Opus Paints</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </nav>
