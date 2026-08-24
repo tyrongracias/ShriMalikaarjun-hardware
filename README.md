@@ -1,6 +1,6 @@
-# Shri Malikarjun Hardware & Paints
+# Shri Mallikarjun Hardware & Paints
 
-Next.js website for Shri Malikarjun Hardware & Paints, Canacona, Goa.
+Next.js website for Shri Mallikarjun Hardware & Paints, Canacona, Goa.
 
 ## Catalogue system
 
