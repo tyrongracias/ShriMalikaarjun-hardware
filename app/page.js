@@ -108,7 +108,9 @@ export default function Home() {
             <div className="store-panel">
               <span className="store-pin">●</span>
               <strong>CANACONA, GOA</strong>
-              <span>Exact store address will be added before launch.</span>
+              <span>Shop No. 6, Vijayabai Complex, 224/BG/4<br />
+              Near Ravindra Bhavan & St. Teresa's Church<br />
+              Church Street Road, Chaudi, Goa – 403702</span>
             </div>
           </div>
         </section>
