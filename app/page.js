@@ -102,7 +102,14 @@ export default function Home() {
               <p className="lead">Need a product checked before you make the trip? Send your requirement on WhatsApp and we'll help you check availability.</p>
               <div className="hero-actions">
                 <Link href="/contact" className="btn btn-black">STORE DETAILS</Link>
-                <a href="https://maps.google.com/?q=Canacona,Goa" target="_blank" rel="noreferrer" className="btn btn-outline-black">GET DIRECTIONS</a>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Shri+Malikarjun+Hardware+%26+Paints,+Chaudi,+Goa"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-outline-black"
+                >
+                  GET DIRECTIONS
+                </a>
               </div>
             </div>
             <div className="store-panel">
