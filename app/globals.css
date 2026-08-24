@@ -431,3 +431,235 @@ h3 {
     display: none;
   }
 }
+/* =========================================================
+   GLOBAL READABILITY / TYPE SCALE
+   ========================================================= */
+
+/* Category strip */
+.quick-number {
+  font-size: 11px;
+  font-weight: 900;
+  opacity: 0.75;
+}
+
+.quick-link strong {
+  font-size: clamp(13px, 0.75vw, 16px);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.quick-arrow {
+  font-size: 24px;
+}
+
+
+/* Section utility links */
+.section-link {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+
+/* Product cards */
+.product-short {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.product-tag {
+  font-size: 11px;
+}
+
+.product-category {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  margin-bottom: 9px;
+}
+
+.product-info h3 {
+  font-size: clamp(20px, 1.35vw, 26px);
+  line-height: 1.05;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: clamp(14px, 0.85vw, 17px);
+  line-height: 1.5;
+  color: #666763;
+  margin: 0 0 20px;
+}
+
+.product-link {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+
+/* Opus section */
+.opus-copy p {
+  font-size: clamp(16px, 1vw, 19px);
+  line-height: 1.6;
+  max-width: 620px;
+}
+
+
+/* Trade section */
+.trade-index {
+  font-size: 11px;
+}
+
+.trade-card h3 {
+  font-size: clamp(21px, 1.4vw, 28px);
+}
+
+.trade-card p {
+  font-size: clamp(14px, 0.85vw, 17px);
+  line-height: 1.5;
+  max-width: 300px;
+}
+
+.trade-arrow {
+  font-size: 24px;
+}
+
+
+/* Category pages */
+.category-number {
+  font-size: 11px;
+}
+
+.category-icon {
+  font-size: 22px;
+}
+
+.pro-category h3 {
+  font-size: clamp(24px, 1.6vw, 32px);
+}
+
+.pro-category p {
+  font-size: clamp(14px, 0.85vw, 17px);
+  line-height: 1.5;
+}
+
+
+/* Product detail pages */
+.detail-copy {
+  font-size: clamp(16px, 1vw, 19px);
+  line-height: 1.6;
+}
+
+.spec-list div {
+  font-size: 12px;
+}
+
+
+/* Contact */
+.contact-icon {
+  font-size: 11px;
+}
+
+.contact-card h3 {
+  font-size: clamp(22px, 1.4vw, 28px);
+}
+
+.contact-card p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.text-link {
+  font-size: 12px;
+}
+
+
+/* Navigation */
+.top-strip {
+  font-size: 10px;
+}
+
+.main-nav {
+  font-size: 13px;
+}
+
+.nav-cta {
+  font-size: 12px;
+}
+
+
+/* Buttons */
+.btn,
+.button {
+  font-size: 12px;
+}
+
+
+/* Footer */
+.footer-brand p {
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.footer-col {
+  font-size: 13px;
+}
+
+.footer-col h3 {
+  font-size: 11px;
+}
+
+.footer-bottom {
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   MOBILE TYPE ADJUSTMENTS
+   ========================================================= */
+
+@media (max-width: 720px) {
+
+  .quick-link strong {
+    font-size: 13px;
+  }
+
+  .product-info h3 {
+    font-size: 21px;
+  }
+
+  .product-info p {
+    font-size: 14px;
+  }
+
+  .product-category {
+    font-size: 11px;
+  }
+
+  .product-link {
+    font-size: 11px;
+  }
+
+  .opus-copy p {
+    font-size: 16px;
+  }
+
+  .trade-card p {
+    font-size: 15px;
+  }
+
+  .pro-category p {
+    font-size: 15px;
+  }
+
+  .section-link {
+    font-size: 11px;
+  }
+
+  .contact-card p {
+    font-size: 15px;
+  }
+}
