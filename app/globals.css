@@ -1111,3 +1111,31 @@ h3 {
     grid-column: 1 / -1;
   }
 }
+
+.quick-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.quick-icon img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.quick-link strong {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.quick-arrow {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  font-size: 22px;
+  color: #fff;
+}
