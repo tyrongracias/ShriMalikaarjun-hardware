@@ -45,7 +45,7 @@ export default async function OpusBrandPage({ searchParams }) {
               <p className="kicker orange-kicker">BRAND COLLECTION</p>
               <h1>Birla Opus.</h1>
               <p className="lead">
-                Explore the Birla Opus products available through Shri Malikarjun Hardware & Paints,
+                Explore the Birla Opus products available through Shri Mallikarjun Hardware & Paints,
                 across paints, primers, waterproofing and other product ranges.
               </p>
               <div className="brand-actions">
