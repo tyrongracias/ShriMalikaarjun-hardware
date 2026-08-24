@@ -40,11 +40,10 @@ export default function Home() {
         className="quick-link"
       >
         <span className="quick-icon">
-          <img
-            src={c.icon}
-            alt=""
-            aria-hidden="true"
-          />
+          style={{
+    maskImage: `url(${c.icon})`,
+    WebkitMaskImage: `url(${c.icon})`,
+  }}
         </span>
 
         <strong>{c.name.toUpperCase()}</strong>
