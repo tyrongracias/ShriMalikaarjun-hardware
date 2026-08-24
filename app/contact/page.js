@@ -36,7 +36,7 @@ export default function Contact() {
               </p>
 
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Shri+Malikarjun+Hardware+%26+Paints,+Chaudi,+Goa"
+                href="https://www.google.com/maps/search/?api=1&query=Shri+Mallikarjun+Hardware+%26+Paints,+Chaudi,+Goa"
                 target="_blank"
                 rel="noreferrer"
                 className="text-link"
