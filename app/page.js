@@ -80,7 +80,7 @@ export default function Home() {
             <div className="opus-copy">
               <p className="kicker orange-kicker">FEATURED PAINT BRAND</p>
               <h2>OPUS<br /><span>PAINTS</span></h2>
-              <p>Explore selected Opus products available through Shri Malikarjun. Ask us about current colours, pack sizes and availability.</p>
+              <p>Explore selected Opus products available through Shri Mallikarjun. Ask us about current colours, pack sizes and availability.</p>
               <Link href="/brands/opus" className="btn btn-orange">EXPLORE OPUS</Link>
             </div>
             <div className="paint-swatch-wall" aria-hidden="true">
