@@ -10,8 +10,8 @@ export function Header() {
         </div>
       </div>
       <div className="container nav">
-        <Link href="/" className="brand-logo" aria-label="Shri Malikarjun Hardware & Paints">
-          <img src="/images/logo.png" alt="Shri Malikarjun Hardware & Paints" />
+        <Link href="/" className="brand-logo" aria-label="Shri Mallikarjun Hardware & Paints">
+          <img src="/images/logo.png" alt="Shri Mallikarjun Hardware & Paints" />
         </Link>
         <nav className="main-nav" aria-label="Main navigation">
           <Link href="/products">Products</Link>
@@ -33,7 +33,7 @@ export function Footer() {
       <div className="footer-orange-bar" />
       <div className="container footer-main">
         <div className="footer-brand">
-          <img src="/images/logo.png" alt="Shri Malikarjun Hardware & Paints" />
+          <img src="/images/logo.png" alt="Shri Mallikarjun Hardware & Paints" />
           <p>Paints, hardware, tools and project essentials for Canacona and the surrounding area.</p>
         </div>
         <div className="footer-col">
@@ -55,7 +55,7 @@ export function Footer() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© 2026 Shri Malikarjun Hardware & Paints</span>
+        <span>© 2026 Shri Mallikarjun Hardware & Paints</span>
         <span>Shop No. 6, Vijayabai Complex<br />
   Chaudi, Canacona, Goa – 403702</span>
       </div>
