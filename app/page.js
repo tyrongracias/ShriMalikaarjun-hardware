@@ -43,23 +43,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section dark-section">
-          <div className="container">
-            <div className="section-head light-head">
-              <div><p className="kicker orange-kicker">TRADE SOLUTIONS</p><h2>Built for the people who build.</h2></div>
-              <Link href="/contact" className="section-link light-link">TALK TO US ↗</Link>
-            </div>
-            <div className="trade-grid">
-              {tradeItems.map(([title, text], i) => (
-                <div className="trade-card" key={title}>
-                  <span className="trade-index">0{i + 1}</span>
-                  <div><h3>{title}</h3><p>{text}</p></div>
-                  <span className="trade-arrow">→</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        
 
         <section className="section products-section">
           <div className="container">
@@ -88,6 +72,24 @@ export default function Home() {
             </div>
             <div className="paint-swatch-wall" aria-hidden="true">
               <div className="swatch swatch-1" /><div className="swatch swatch-2" /><div className="swatch swatch-3" /><div className="swatch swatch-4" /><div className="swatch swatch-5" /><div className="swatch swatch-6" />
+            </div>
+          </div>
+        </section>
+                
+       <section className="section dark-section">
+          <div className="container">
+            <div className="section-head light-head">
+              <div><p className="kicker orange-kicker">TRADE SOLUTIONS</p><h2>Built for the people who build.</h2></div>
+              <Link href="/contact" className="section-link light-link">TALK TO US ↗</Link>
+            </div>
+            <div className="trade-grid">
+              {tradeItems.map(([title, text], i) => (
+                <div className="trade-card" key={title}>
+                  <span className="trade-index">0{i + 1}</span>
+                  <div><h3>{title}</h3><p>{text}</p></div>
+                  <span className="trade-arrow">→</span>
+                </div>
+              ))}
             </div>
           </div>
         </section>
