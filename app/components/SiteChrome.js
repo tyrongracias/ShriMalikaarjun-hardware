@@ -20,7 +20,7 @@ export function Header() {
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </nav>
-        <a className="nav-cta" href="https://wa.me/919999999999" target="_blank" rel="noreferrer">
+        <a className="nav-cta" href="https://wa.me/918310248961" target="_blank" rel="noreferrer">
           WhatsApp
         </a>
       </div>
@@ -51,8 +51,8 @@ export function Footer() {
         <div className="footer-col footer-contact">
           <h3>CONTACT</h3>
           <span>Canacona, Goa</span>
-          <a href="tel:+919999999999">+91 99999 99999</a>
-          <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer">WhatsApp us</a>
+          <a href="tel:+918310248961">+91 8310 2489 61</a>
+          <a href="https://wa.me/918310248961" target="_blank" rel="noreferrer">WhatsApp us</a>
           <a href="https://maps.google.com/?q=Canacona,Goa" target="_blank" rel="noreferrer">Get directions</a>
         </div>
       </div>
