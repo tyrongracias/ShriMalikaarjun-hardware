@@ -123,16 +123,16 @@ export default function Home() {
     </div>
 
     <div className="store-panel">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240.85778393196796!2d74.0453690848158!3d15.00798854638001!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbe5ab933a5ce7b%3A0x3e94529d11da8fad!2sCanacona%2C%20Goa!5e0!3m2!1sen!2sin!4v1787552315374!5m2!1sen!2sin"
-        width="100%"
-        height="100%"
-        style={{ border: 0 }}
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="strict-origin-when-cross-origin"
-      />
-    </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d240.857734657081!2d74.04528344348333!3d15.008032267609096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1787553954195!5m2!1sen!2sin"
+    width="100%"
+    height="340"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="strict-origin-when-cross-origin"
+  />
+</div>
   </div>
 </section>
       </main>
