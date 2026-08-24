@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { categories, products } from "../../../lib/catalog";
-import { Header, Footer } from "./components/SiteChrome";
+import { Header, Footer } from "../../components/SiteChrome";
 
 const tradeItems = [
   ["CONTRACTORS", "Project materials, paint and hardware for the job."],
