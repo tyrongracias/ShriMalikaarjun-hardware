@@ -33,25 +33,27 @@ export default function Home() {
 
        <section className="quick-links">
   <div className="container quick-grid">
-    {categories.slice(0, 5).map((c) => (
-      <Link
-        key={c.slug}
-        href={`/categories/${c.slug}`}
-        className="quick-link"
-      >
-        <span className="quick-icon">
-          style={{
-    maskImage: `url(${c.icon})`,
-    WebkitMaskImage: `url(${c.icon})`,
-  }}
-        </span>
+  {categories.slice(0, 5).map((c) => (
+    <Link
+      key={c.slug}
+      href={`/categories/${c.slug}`}
+      className="quick-link"
+    >
+      <span
+        className="quick-icon"
+        style={{
+          maskImage: `url(${c.icon})`,
+          WebkitMaskImage: `url(${c.icon})`,
+        }}
+        aria-hidden="true"
+      />
 
-        <strong>{c.name.toUpperCase()}</strong>
+      <strong>{c.name.toUpperCase()}</strong>
 
-        <span className="quick-arrow">↗</span>
-      </Link>
-    ))}
-  </div>
+      <span className="quick-arrow">↗</span>
+    </Link>
+  ))}
+</div>
 </section>
 
         
