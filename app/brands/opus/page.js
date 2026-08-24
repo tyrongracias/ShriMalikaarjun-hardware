@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { categories, products } from "../lib/catalog";
+import { categories, products } from "../../../lib/catalog";
 import { Header, Footer } from "./components/SiteChrome";
 
 const tradeItems = [
