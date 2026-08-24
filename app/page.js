@@ -24,7 +24,7 @@ export default function Home() {
               <p className="hero-copy">Your local source for paints, hardware, tools and project essentials in Canacona, Goa.</p>
               <div className="hero-actions">
                 <Link href="/products" className="btn btn-orange">SHOP PRODUCTS</Link>
-                <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" className="btn btn-outline-white">WHATSAPP US</a>
+                <a href="https://wa.me/918310248961" target="_blank" rel="noreferrer" className="btn btn-outline-white">WHATSAPP US</a>
               </div>
             </div>
           </div>
