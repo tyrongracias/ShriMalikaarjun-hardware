@@ -58,7 +58,8 @@ export function Footer() {
       </div>
       <div className="container footer-bottom">
         <span>© 2026 Shri Malikarjun Hardware & Paints</span>
-        <span>CANACONA, GOA</span>
+        <span>Shop No. 6, Vijayabai Complex<br />
+  Chaudi, Canacona, Goa – 403702</span>
       </div>
     </footer>
   );
