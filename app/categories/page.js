@@ -1,0 +1,4 @@
+import Link from "next/link";
+import { categories } from "../../lib/catalog";
+import { Header, Footer } from "../components/SiteChrome";
+export default function CategoriesPage(){return <><Header/><main className="page"><div className="container"><p className="kicker">PRODUCT RANGE</p><h1>Shop by category.</h1><p className="lead">Find paints, hardware, tools, waterproofing and project essentials by category.</p><div className="category-grid big pro-category-grid">{categories.map((c,i)=><Link key={c.slug} href={`/categories/${c.slug}`} className="category-card pro-category"><span className="category-number">0{i+1}</span><div><span className="category-icon">{c.icon}</span><h3>{c.name}</h3><p>{c.description}</p></div><span className="category-arrow">↗</span></Link>)}</div></div></main><Footer/></>}
