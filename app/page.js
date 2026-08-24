@@ -95,32 +95,46 @@ export default function Home() {
         </section>
 
         <section className="section store-section">
-          <div className="container store-grid">
-            <div>
-              <p className="kicker">FIND US</p>
-              <h2>Your local supply stop.</h2>
-              <p className="lead">Need a product checked before you make the trip? Send your requirement on WhatsApp and we'll help you check availability.</p>
-              <div className="hero-actions">
-                <Link href="/contact" className="btn btn-black">STORE DETAILS</Link>
-                <a
-                  href="https://www.google.com/maps/search/?api=1&query=Shri+Malikarjun+Hardware+%26+Paints,+Chaudi,+Goa"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn btn-outline-black"
-                >
-                  GET DIRECTIONS
-                </a>
-              </div>
-            </div>
-            <div className="store-panel">
-              <span className="store-pin">●</span>
-              <strong>CANACONA, GOA</strong>
-              <span>Shop No. 6, Vijayabai Complex, 224/BG/4<br />
-              Near Ravindra Bhavan & St. Teresa's Church<br />
-              Church Street Road, Chaudi, Goa – 403702</span>
-            </div>
-          </div>
-        </section>
+  <div className="container store-grid">
+    <div>
+      <p className="kicker">FIND US</p>
+
+      <h2>Your local supply stop.</h2>
+
+      <p className="lead">
+        Need a product checked before you make the trip? Send your requirement
+        on WhatsApp and we'll help you check availability.
+      </p>
+
+      <div className="hero-actions">
+        <Link href="/contact" className="btn btn-black">
+          STORE DETAILS
+        </Link>
+
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=15.00798854638001,74.0453690848158"
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-outline-black"
+        >
+          GET DIRECTIONS
+        </a>
+      </div>
+    </div>
+
+    <div className="store-panel">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240.85778393196796!2d74.0453690848158!3d15.00798854638001!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbe5ab933a5ce7b%3A0x3e94529d11da8fad!2sCanacona%2C%20Goa!5e0!3m2!1sen!2sin!4v1787552315374!5m2!1sen!2sin"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="strict-origin-when-cross-origin"
+      />
+    </div>
+  </div>
+</section>
       </main>
       <Footer />
     </>
