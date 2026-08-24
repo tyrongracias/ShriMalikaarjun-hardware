@@ -31,17 +31,29 @@ export default function Home() {
           <div className="hero-corner">SM<br /><small>CANACONA</small></div>
         </section>
 
-        <section className="quick-links">
-          <div className="container quick-grid">
-            {categories.slice(0, 5).map((c, i) => (
-              <Link key={c.slug} href={`/categories/${c.slug}`} className="quick-link">
-                <span className="quick-number">0{i + 1}</span>
-                <strong>{c.name.toUpperCase()}</strong>
-                <span className="quick-arrow">↗</span>
-              </Link>
-            ))}
-          </div>
-        </section>
+       <section className="quick-links">
+  <div className="container quick-grid">
+    {categories.slice(0, 5).map((c) => (
+      <Link
+        key={c.slug}
+        href={`/categories/${c.slug}`}
+        className="quick-link"
+      >
+        <span className="quick-icon">
+          <img
+            src={c.icon}
+            alt=""
+            aria-hidden="true"
+          />
+        </span>
+
+        <strong>{c.name.toUpperCase()}</strong>
+
+        <span className="quick-arrow">↗</span>
+      </Link>
+    ))}
+  </div>
+</section>
 
         
 
