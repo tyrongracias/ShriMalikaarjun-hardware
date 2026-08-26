@@ -86,18 +86,81 @@ export default async function Home() {
         </section>
 
         <section className="opus-feature">
-          <div className="container opus-feature-grid">
-            <div className="opus-copy">
-              <p className="kicker orange-kicker">FEATURED PAINT BRAND</p>
-              <h2>OPUS<br /><span>PAINTS</span></h2>
-              <p>Explore selected Opus products available through Shri Mallikarjun. Ask us about current colours, pack sizes and availability.</p>
-              <Link href="/brands/opus" className="btn btn-orange">EXPLORE OPUS</Link>
-            </div>
-            <div className="paint-swatch-wall" aria-hidden="true">
-              <div className="swatch swatch-1" /><div className="swatch swatch-2" /><div className="swatch swatch-3" /><div className="swatch swatch-4" /><div className="swatch swatch-5" /><div className="swatch swatch-6" />
-            </div>
+  <div className="container">
+    <div className="opus-feature-top">
+      <div className="opus-brand-copy">
+        <p className="kicker orange-kicker">FEATURED PAINT BRAND</p>
+
+        <div className="opus-logo-wrap">
+          <img
+            src="/images/opus-logo.svg"
+            alt="Birla Opus"
+            className="opus-logo"
+          />
+        </div>
+
+        <h2>
+          COLOUR
+          <br />
+          YOUR SPACE.
+        </h2>
+
+        <p className="opus-description">
+          Explore Birla Opus paints, finishes and colour possibilities
+          available through Shri Mallikarjun Hardware & Paint in Canacona.
+        </p>
+
+        <div className="opus-actions">
+          <Link href="/brands/opus" className="btn btn-orange">
+            EXPLORE OPUS
+          </Link>
+
+          <a
+            href="https://www.birlaopus.com/colour-catalogue"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-black"
+          >
+            OPEN COLOUR CATALOGUE ↗
+          </a>
+        </div>
+      </div>
+
+      <div className="opus-brand-panel">
+        <div className="opus-brand-panel-top">
+          <div>
+            <span className="opus-panel-kicker">BIRLA OPUS</span>
+            <strong>COLOUR CATALOGUE</strong>
           </div>
-        </section>
+
+          <a
+            href="https://www.birlaopus.com/colour-catalogue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OPEN ↗
+          </a>
+        </div>
+
+        <div className="opus-catalogue-frame">
+          <iframe
+            src="https://www.birlaopus.com/colour-catalogue"
+            title="Birla Opus Colour Catalogue"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div className="opus-range-strip">
+      <span>INTERIOR PAINTS</span>
+      <span>EXTERIOR PAINTS</span>
+      <span>WATERPROOFING</span>
+      <span>ENAMELS</span>
+      <span>WOOD FINISHES</span>
+    </div>
+  </div>
+</section>
                 
        <section className="section dark-section">
           <div className="container">
