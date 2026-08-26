@@ -142,13 +142,45 @@ export default async function Home() {
           </a>
         </div>
 
-        <div className="opus-catalogue-frame">
-          <iframe
-            src="https://www.birlaopus.com/colour-catalogue"
-            title="Birla Opus Colour Catalogue"
-            loading="lazy"
-          />
-        </div>
+        <div className="opus-catalogue-preview">
+  <div className="opus-catalogue-preview-inner">
+    <span className="opus-preview-kicker">
+      BIRLA OPUS
+    </span>
+
+    <h3>
+      FIND YOUR
+      <br />
+      PERFECT COLOUR.
+    </h3>
+
+    <p>
+      Explore the Birla Opus colour catalogue to browse colour families,
+      discover shades and find the right colour for your project.
+    </p>
+
+    <a
+      href="https://www.birlaopus.com/colour-catalogue"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-orange"
+    >
+      EXPLORE COLOUR CATALOGUE ↗
+    </a>
+  </div>
+
+  <div className="opus-colour-preview" aria-hidden="true">
+    <span className="opus-colour c1" />
+    <span className="opus-colour c2" />
+    <span className="opus-colour c3" />
+    <span className="opus-colour c4" />
+    <span className="opus-colour c5" />
+    <span className="opus-colour c6" />
+    <span className="opus-colour c7" />
+    <span className="opus-colour c8" />
+    <span className="opus-colour c9" />
+  </div>
+</div>
       </div>
     </div>
 
