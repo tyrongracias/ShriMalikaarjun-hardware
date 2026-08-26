@@ -38,7 +38,7 @@ export const metadata = {
     images: ["/images/seo-share.png"],
   },
   robots: { index: true, follow: true },
-  icons: { icon: "/images/logo.png" },
+  icons: { icon: "/images/icon.png" },
 };
 
 export default function RootLayout({ children }) {
