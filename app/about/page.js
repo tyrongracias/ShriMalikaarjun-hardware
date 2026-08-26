@@ -1,9 +1,0 @@
-import Link from "next/link";
-import { Header, Footer } from "../components/SiteChrome";
-
-export const metadata = {
-  title: "About Shri Mallikarjun Hardware & Paints in Canacona",
-  description: "Learn about Shri Mallikarjun Hardware & Paints, a local source for paints, hardware, tools and project supplies in Canacona, Goa.",
-  alternates: { canonical: "/about" },
-};
-export default function About(){return <><Header/><main className="page"><div className="container narrow"><p className="kicker">ABOUT SHRI MALLIKARJUN</p><h1>Your local hardware & paint partner.</h1><p className="lead">We help homeowners, painters, contractors and local businesses find the right paints, hardware, tools and accessories for their projects.</p><div className="about-box industrial-box"><span className="box-index">01</span><h2>Serving Canacona and area around.</h2><p>This section can be replaced with the shop's real history, experience and what makes Shri Mallikarjun different.</p></div><div className="actions"><Link href="/products" className="btn btn-orange">EXPLORE PRODUCTS</Link><Link href="/contact" className="btn btn-outline-black">VISIT THE STORE</Link></div></div></main><Footer/></>}
