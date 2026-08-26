@@ -194,13 +194,157 @@ h3 {
 .product-link{font-size:10px;font-weight:900;letter-spacing:.08em}
 .terracotta{background:linear-gradient(145deg,#8f4938,#c77b5d)}.sand{background:linear-gradient(145deg,#bda87c,#e6d6b2)}.slate{background:linear-gradient(145deg,#46515a,#85939a)}.blue{background:linear-gradient(145deg,#2d5e70,#72a0aa)}.cream{background:linear-gradient(145deg,#c8b99d,#e7dcc8)}.green{background:linear-gradient(145deg,#405e51,#82998b)}.charcoal{background:linear-gradient(145deg,#2c2d2b,#64645e)}.orange{background:linear-gradient(145deg,#a7522c,#d88452)}
 
-.opus-feature{background:#e7e7e4;border-top:8px solid var(--orange);padding:85px 0}
-.opus-feature-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:stretch}
-.opus-copy h2{font-family:Archivo Black,Archivo,sans-serif;font-size:clamp(62px,8vw,112px);line-height:.78;margin-bottom:30px}
-.opus-copy h2 span{color:var(--orange)}
-.opus-copy p{max-width:500px;color:#5f605c;margin-bottom:28px}
-.paint-swatch-wall{display:grid;grid-template-columns:repeat(3,1fr);min-height:350px;gap:8px;background:#111;padding:8px}
-.swatch{min-height:110px}.swatch-1{background:#f36c12}.swatch-2{background:#e9c46a}.swatch-3{background:#527c6d}.swatch-4{background:#c94c34}.swatch-5{background:#e8dfcf}.swatch-6{background:#4a5963}
+/* =========================================================
+   BIRLA OPUS FEATURED BRAND
+   ========================================================= */
+
+.opus-feature {
+  background: #f1f1ee;
+  border-top: 8px solid var(--orange);
+  padding: 90px 0 0;
+  overflow: hidden;
+}
+
+.opus-feature-top {
+  display: grid;
+  grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr);
+  gap: 70px;
+  align-items: stretch;
+}
+
+.opus-brand-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 0 70px;
+}
+
+.opus-logo-wrap {
+  margin: 8px 0 28px;
+  width: min(100%, 330px);
+}
+
+.opus-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 95px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.opus-brand-copy h2 {
+  font-family: Archivo Black, Archivo, Arial, sans-serif;
+  font-size: clamp(54px, 5.4vw, 88px);
+  line-height: .86;
+  letter-spacing: -.045em;
+  text-transform: uppercase;
+  margin: 0 0 28px;
+}
+
+.opus-description {
+  max-width: 570px;
+  color: #5f605c;
+  font-size: clamp(16px, 1vw, 19px);
+  line-height: 1.6;
+  margin: 0 0 30px;
+}
+
+.opus-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.opus-brand-panel {
+  min-width: 0;
+  background: #fff;
+  border: 1px solid #c9cac6;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, .08);
+  display: flex;
+  flex-direction: column;
+}
+
+.opus-brand-panel-top {
+  min-height: 76px;
+  padding: 17px 20px;
+  background: #111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.opus-brand-panel-top > div {
+  display: grid;
+  gap: 5px;
+}
+
+.opus-panel-kicker {
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.opus-brand-panel-top strong {
+  font-family: Archivo, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+.opus-brand-panel-top a {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.opus-brand-panel-top a:hover {
+  color: var(--orange);
+}
+
+.opus-catalogue-frame {
+  position: relative;
+  width: 100%;
+  height: 620px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.opus-catalogue-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #fff;
+}
+
+.opus-range-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 76px;
+  border-top: 1px solid #c9cac6;
+  margin-top: 0;
+  overflow-x: auto;
+}
+
+.opus-range-strip span {
+  flex: 0 0 auto;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  color: #555652;
+  white-space: nowrap;
+}
 
 .store-section{background:#fff}
 .store-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
@@ -1218,5 +1362,73 @@ h3 {
 .admin-required-note{margin:0;color:#8b2525;font-size:12px;font-weight:800}
 
 .hero-carousel{position:absolute;inset:0;overflow:hidden;background:#222}.hero-slide{position:absolute;inset:0;background-position:center;background-size:cover;opacity:0;transition:opacity .8s ease;transform:scale(1.01)}.hero-slide.active{opacity:1}.hero-dots{position:absolute;right:28px;bottom:28px;display:flex;gap:8px;z-index:3}.hero-dots button{width:10px;height:10px;border-radius:50%;border:1px solid #fff;background:transparent;padding:0;cursor:pointer}.hero-dots button.active{background:#fff}.locations-home-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.store-location-card{border:1px solid #c6c7c3;background:#f1f1ee}.store-location-copy{padding:26px}.store-location-copy h3{font-size:28px;margin-bottom:12px}.store-location-copy p:not(.kicker){color:#60615d;line-height:1.6}.store-location-card .store-panel{border:0;border-top:1px solid #c6c7c3}.contact-maps-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:40px}.map-title{display:flex;justify-content:space-between;align-items:baseline;gap:15px;padding:14px 16px;background:#111;color:#fff}.map-title strong{font-size:13px;text-transform:uppercase}.map-title span{font-size:11px;color:#bbb}.admin-slide-list{display:grid;margin-top:20px;border-top:1px solid var(--line)}.admin-slide-row{display:grid;grid-template-columns:100px 1fr auto auto;align-items:center;gap:15px;padding:12px 0;border-bottom:1px solid var(--line)}.admin-slide-row img{width:100px;height:60px;object-fit:cover;background:#ddd}.admin-slide-row div{display:grid;gap:4px}.admin-slide-row span{font-size:10px;letter-spacing:.08em;font-weight:900;color:#777}.admin-slide-row button{border:1px solid #c2c3be;background:#fff;padding:8px 10px;font-size:10px;font-weight:900;cursor:pointer}.admin-slide-row button:hover{background:var(--black);color:#fff}.admin-slide-row .danger:hover{background:#9b2929;border-color:#9b2929}.product-art{position:relative;overflow:hidden}.product-art img{width:100%;height:100%;object-fit:contain;display:block;padding:20px}.empty-state{grid-column:1/-1;padding:45px 30px;background:#f1f1ee;border:1px solid #d0d1cc}.empty-state strong{display:block;font-family:Archivo,Arial,sans-serif;font-size:24px;margin-bottom:8px}.empty-state p{color:#666;margin-bottom:20px}
-@media(max-width:760px){.locations-home-grid,.contact-maps-grid{grid-template-columns:1fr}.admin-slide-row{grid-template-columns:70px 1fr}.admin-slide-row img{width:70px;height:50px}.admin-slide-row button{grid-column:auto}.hero-dots{right:16px;bottom:18px}}
-.admin-form input[aria-invalid="true"],.admin-form select[aria-invalid="true"],.admin-form textarea[aria-invalid="true"]{border-color:#c33;background:#fff8f8}.admin-field-error{color:#a52d2d!important;font-weight:800!important}.admin-required-note{font-size:12px;color:#8b2525;font-weight:800}.admin-submit:disabled{opacity:.45;cursor:not-allowed;transform:none}
+@media(max-width:760px){
+  .locations-home-grid,
+  .contact-maps-grid{
+    grid-template-columns:1fr;
+  }
+
+  .admin-slide-row{
+    grid-template-columns:70px 1fr;
+  }
+
+  .admin-slide-row img{
+    width:70px;
+    height:50px;
+  }
+
+  .admin-slide-row button{
+    grid-column:auto;
+  }
+
+  .hero-dots{
+    right:16px;
+    bottom:18px;
+  }
+
+  /* OPUS FEATURE */
+
+  .opus-feature{
+    padding-top:60px;
+  }
+
+  .opus-feature-top{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .opus-brand-copy{
+    padding:10px 0 0;
+  }
+
+  .opus-logo-wrap{
+    width:min(100%,250px);
+    margin-bottom:24px;
+  }
+
+  .opus-logo{
+    max-height:75px;
+  }
+
+  .opus-brand-copy h2{
+    font-size:clamp(48px,14vw,70px);
+  }
+
+  .opus-description{
+    font-size:16px;
+  }
+
+  .opus-brand-panel{
+    width:100%;
+  }
+
+  .opus-catalogue-frame{
+    height:560px;
+  }
+
+  .opus-range-strip{
+    justify-content:flex-start;
+    padding:0;
+    gap:28px;
+  }
+}
