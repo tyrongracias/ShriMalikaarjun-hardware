@@ -310,21 +310,71 @@ h3 {
   color: var(--orange);
 }
 
-.opus-catalogue-frame {
+.opus-catalogue-preview {
+  min-height: 620px;
   position: relative;
-  width: 100%;
-  height: 620px;
-  background: #fff;
   overflow: hidden;
+  background: #f4f3ef;
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
 }
 
-.opus-catalogue-frame iframe {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  background: #fff;
+.opus-catalogue-preview-inner {
+  position: relative;
+  z-index: 2;
+  padding: 55px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.opus-preview-kicker {
+  color: var(--orange);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .15em;
+  margin-bottom: 18px;
+}
+
+.opus-catalogue-preview h3 {
+  font-family: Archivo Black, Archivo, Arial, sans-serif;
+  font-size: clamp(42px, 4vw, 66px);
+  line-height: .9;
+  letter-spacing: -.04em;
+  margin: 0 0 24px;
+}
+
+.opus-catalogue-preview p {
+  max-width: 390px;
+  color: #62635f;
+  line-height: 1.6;
+  margin: 0 0 30px;
+}
+
+.opus-colour-preview {
+  min-height: 620px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 6px;
+  padding: 6px;
+  background: #111;
+  transform: rotate(-2deg) scale(1.08);
+}
+
+.opus-colour {
+  display: block;
+}
+
+.opus-colour.c1 { background:#f47b20; }
+.opus-colour.c2 { background:#e8c76b; }
+.opus-colour.c3 { background:#668b7d; }
+.opus-colour.c4 { background:#c94b35; }
+.opus-colour.c5 { background:#e8dfcf; }
+.opus-colour.c6 { background:#52616b; }
+.opus-colour.c7 { background:#d8a03e; }
+.opus-colour.c8 { background:#7b5547; }
+.opus-colour.c9 { background:#283f49; }
 
 .opus-range-strip {
   display: flex;
@@ -1422,9 +1472,19 @@ h3 {
     width:100%;
   }
 
-  .opus-catalogue-frame{
-    height:560px;
-  }
+  .opus-catalogue-preview {
+  min-height: auto;
+  grid-template-columns: 1fr;
+}
+
+.opus-catalogue-preview-inner {
+  padding: 45px 28px;
+}
+
+.opus-colour-preview {
+  min-height: 420px;
+  transform: none;
+}
 
   .opus-range-strip{
     justify-content:flex-start;
